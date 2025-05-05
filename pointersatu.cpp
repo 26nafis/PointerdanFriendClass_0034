@@ -18,3 +18,8 @@ using namespace std;
     refmhs.nim = 2;//member acces operator
     mhs.shownim();
     
+    mahasiswa *pmhs = &mhs;
+    pmhs->nim = 3; //arrow operator
+    pmhs->shownim();
+    return 0;
+ }
