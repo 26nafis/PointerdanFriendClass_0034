@@ -1,0 +1,20 @@
+
+
+#include <iostream>
+using namespace std;
+ class mahasiswa{
+    public:
+    int nim;
+    void shownim(){
+        cout<<"No indok = "<<nim<<endl;
+    }
+ };
+
+ int main(){
+    mahasiswa mhs{1}; // object mhs
+    mhs.shownim();//member access operator
+
+    mahasiswa &refmhs = mhs;
+    refmhs.nim = 2;//member acces operator
+    mhs.shownim();
+    
