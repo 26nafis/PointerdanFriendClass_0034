@@ -6,7 +6,7 @@ using namespace std;
     public:
     int nim;
     void shownim(){
-        cout<<"No indok = "<<nim<<endl;
+        cout<<"No induk = "<<nim<<endl;
     }
  };
 
